@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class calculator {
   public static void main(String[] args) {
 
-    char operator;
+    char operator1;
     Double number1, number2, result;
 
     // create an object of Scanner class
@@ -13,7 +13,7 @@ public class calculator {
 
     // ask users to enter operator
     System.out.println("Choose an operator: +, -, *, or /");
-    operator = input.next().charAt(0);
+    operator1 = input.next().charAt(0);
 
     // ask users to enter numbers
     System.out.println("Enter first number");
@@ -22,7 +22,7 @@ public class calculator {
     System.out.println("Enter second number");
     number2 = input.nextDouble();
 
-    switch (operator) {
+    switch (operator1) {
 
       // performs addition between numbers
       case '+':
