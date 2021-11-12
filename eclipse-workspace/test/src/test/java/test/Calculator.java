@@ -1,8 +1,8 @@
 package test;
 
 import java.util.Scanner;
-
-public class Calculator {
+//simple change
+public class calculator {
   public static void main(String[] args) {
 
     char operator;
